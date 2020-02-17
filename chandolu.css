@@ -1,7 +1,23 @@
-
+h1{
+    color: plum;
+}
 input[type=submit]{
-    color: red;
-    background-color:pink;
+    color: rgb(60, 60, 168);
+    background-color: plum;
+}
+label{
+    font-size: larger;
+    background-color: greenyellow;
+}
+#output{
+    color: rgb(138, 173, 84);
+    font-size: large;
+}
+input[type=submit]{
+    border-radius: 20%;
+}
+input[type=number]{
+    border-radius: 10%;
 }
 footer{
     background-color: pink;
