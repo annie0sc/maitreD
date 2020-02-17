@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <title>Chandolu</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="chandolu.css">
+        <script src="chandolu.js"></script>
+
+    </head>
+    <body>
+        <main class="container mt-3">
+            <article class="row text-center">
+                <section class="col-sm-12">
+                    <h1>Maitre D</h1>
+                    <label>Total Bill: </label><input type="number" name="totalin" id = "totalin">
+                    <label>Rate of Tip: </label><input type="number" name="tipin" id="tipin">
+
+                    <div id="output">
+                        <div class="outputLable">Tip Given: </div><div class="outputText" id="tipout">$0</div>
+                        <div class="outputLable">Tax: </div><div class="outputText" id="taxout">$0</div>
+                        <div class="outputLable">Grand Total Bill: </div><div class="outputText" id="grandout">$0</div>
+                    </div>
+                    <input type="submit" value="Click to calculate :D" name="submit" onclick="calc()">
+                </section>
+
+        </main>
+
+    <footer class="container mt-3 text-center ">
+        <a class="footer">Copyright &copy; 2020 Annie Chandolu.</a>
+    </footer>
+
+    </body>
+</html>
